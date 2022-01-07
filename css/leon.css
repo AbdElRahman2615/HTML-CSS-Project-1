@@ -9,9 +9,6 @@
 /* variables end */
 
 /* repeated components */
-i {
-  cursor: pointer;
-}
 .main-heading {
   font-size: 100px;
   text-align: center;
@@ -42,6 +39,9 @@ i {
 /* repeated components */
 
 /* start global rules */
+i {
+  cursor: pointer;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -420,6 +420,9 @@ body {
   color: var(--second-color);
   width: 15px;
   margin-left: 10px;
+}
+.contact .container .info .social a {
+  text-decoration: none;
 }
 @media (max-width: 767px) {
   .contact .container .info .label,
