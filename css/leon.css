@@ -9,6 +9,9 @@
 /* variables end */
 
 /* repeated components */
+i {
+  cursor: pointer;
+}
 .main-heading {
   font-size: 100px;
   text-align: center;
@@ -232,7 +235,6 @@ body {
   .services .container .inform .serv {
     text-align: center;
     flex-direction: column;
-    margin-left: -20px;
   }
 }
 @media (max-width: 991px) {
